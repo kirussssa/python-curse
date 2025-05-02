@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+header {
+    background-color: #8a58ff;
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 2rem 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 2.5rem;
+}
+
+h1, h2 {
+    margin-bottom: 1rem;
+}
+
+.header-logo {
+    width: 200px;
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto 1.5rem;
+}
+
+.course-info, .author-info, .purchase-section, .support-section, .reviews-section {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.author-photo.small-author {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 1rem;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#buy-button {
+    background-color: #2c974b;
+    color: white;
+    border: none;
+    padding: 1.2rem;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+#buy-button:hover {
+    background-color: #267c3c;
+}
+
+.price {
+    font-size: 2rem;
+    color: #2c974b;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+a {
+    color: #306998;
+}
+
+.video-wrapper {
+    border-radius: 12px;
+    overflow: hidden;
+    max-width: 720px;
+    margin: 0 auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.video-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.decorated-title {
+    font-size: 2rem;
+    text-align: center;
+    position: relative;
+}
+
+.decorated-title::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: #4caf50;
+    margin: 10px auto 0;
+    border-radius: 2px;
+}
+
+.faq-section {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.faq-card {
+    background: #f9f9f9;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.review-card {
+    background-color: #f0f4f8;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-left: 4px solid #306998;
+    border-radius: 8px;
+}
+
+.support-section {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    h1, h2 {
+        font-size: 1.4rem;
+    }
+
+    .header-logo {
+        width: 160px;
+    }
+
+    .author-photo.small-author {
+        width: 100px;
+        height: 100px;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+        font-size: 1rem;
+    }
+
+    .decorated-title {
+        font-size: 1.6rem;
+    }
+
+    .faq-card h3 {
+        font-size: 1rem;
+    }
+}
